@@ -1,0 +1,61 @@
+* {
+  margin: 0 0 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url("src/wallpaper/wal2.png")
+}
+.GlobalWindow {
+  overflow: auto;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: background-color 0.8s ease;
+}
+.ButtonAnime {
+  display: flex;
+  position: relative;
+  float: right;
+  top: 10px;
+  right: 10px;
+  height: 80px;
+}
+#NewAnime {
+  width: 100px;
+  background-color: #e9814f;
+  border-radius: 10px;
+  height: 80px;
+  border: none;
+}
+#ChangeTheme {
+  width: 100px;
+  background-color: #e9814f;
+  border-radius: 10px;
+  height: 80px;
+  border: none;
+}
+.ButtonAnime button {
+  margin-right: 5px;
+}
+.AnimeList {
+  position: relative;
+  top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+.nameInput {
+  display: flex;
+}
+.nameInput input {
+  border: 4px solid #e9814f;
+  text-decoration: none;
+  transition: background-color 0.8s ease;
+  margin-left: 30px;
+}
+.nameInput h2 {
+  color: white;
+  margin-left: 10px;
+  transition: color 0.8s ease;
+}
