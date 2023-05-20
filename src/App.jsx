@@ -25,7 +25,6 @@ function changeBackground() {
     ApplyChanges.style.backgroundColor = 'white'
     ApplyChanges.style.color = '#373737'
   }
-
 }
 
 function App() {

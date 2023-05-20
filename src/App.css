@@ -39,6 +39,7 @@ body {
   margin-right: 5px;
 }
 .AnimeList {
+  border-radius: 15px;
   position: relative;
   top: 120px;
   margin-left: auto;
@@ -53,6 +54,7 @@ body {
   text-decoration: none;
   transition: background-color 0.8s ease;
   margin-left: 30px;
+  outline: none;
 }
 .nameInput h2 {
   color: white;
@@ -75,6 +77,7 @@ body {
   text-decoration: none;
   transition: background-color 0.8s ease;
   margin-left: 30px;
+  outline: none;
 }
 .AnimeList button {
   background-color: white;
